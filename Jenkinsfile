@@ -16,5 +16,10 @@ pipeline {
         echo 'Test Step added'
       }
     }
+    stage('Code Coveage') {
+      steps {
+        echo 'Code Coverage Step added'
+      }
+    }
   }
 }
