@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Nunit build') {
+    stage('Initialize') {
       steps {
-        build 'RAWA_BUILD_Job'
+        echo 'First Step achived'
       }
     }
   }
